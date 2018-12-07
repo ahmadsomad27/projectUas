@@ -1,0 +1,86 @@
+<br><div style = "text-align:center">
+    <img width="1300" height="400" alt="polinema" src="../src/app/img/perpus.jpeg">
+  </div><br>
+  
+  <style>    
+    div.absolute {
+      position: absolute;
+      top: 80px;
+      right: 550px;
+      width: 200px;
+      height: 100px;
+    }
+  </style>
+    <div class="absolute">
+      <img width="150" alt="polinema" src="http://2.bp.blogspot.com/-47EoU2cz1cg/UNSDP2ESFEI/AAAAAAAAISU/xwkN6d7TWHo/s1600/LOGO+POLITEKNIK+NEGERI+MALANG.png">
+    </div>
+  
+  <style>
+    div.abs {
+      position: absolute;
+      top: 250px;
+      left: 400px;
+      width: auto;
+      height: auto;
+      color: white;
+      border: 3px solid red;
+    }
+  </style>
+    <div class="abs">
+      <h1> POLITEKNIK NEGERI MALANG </h1>
+    </div>
+
+  <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">INFORMATICS MANAGEMENT</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li routerLinkActive="active"><a routerLink="/recipes">Laporan Akhir</a></li>
+            <li routerLinkActive="active"><a routerLink="/sopping-list">Data Laporan Akhir</a></li>
+            <li routerLinkActive="active"><a routerLink="/s">Peminjaman LA</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown" appDropdown>
+            <button type="button" class="btn btn-info">Manage<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li>
+              <a style="cursor: pointer;" (click)="onSaveData()">Save Data</a>
+            </li>
+            <li>
+              <a style="cursor: pointer;" (click)="onFetchData()">Fetch Data</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    
+<!--   
+  <div class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a routerLink="/recipes" class="navbar-brand">D3 Informatics Managemen</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active"><a routerLink="/recipes">Laporan Akhir</a></li>
+        <li routerLinkActive="active"><a routerLink="/sopping-list">Data Laporan Akhir</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown" appDropdown>
+            <a style="cursor: pointer;" class = "dropdown-toggle" role="button"> Manage <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a style="cursor: pointer;" (click)="onSaveData()">Save Data</a>
+              </li>
+              <li>
+                <a style="cursor: pointer;" (click)="onFetchData()">Fetch Data</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+  </div>
+</div> -->
